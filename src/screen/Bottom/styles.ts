@@ -6,22 +6,42 @@ export const styles = StyleSheet.create({
     padding: 24,
     backgroundColor: "#1e1f1e",
   },
+
+  bgImg: {
+    ...StyleSheet.absoluteFillObject // Seta o position como absoluto já pegando toda a extensão da tela.
+  },
+
+  gradient: {
+    ...StyleSheet.absoluteFillObject // Seta o position como absoluto já pegando toda a extensão da tela.
+  },
+
+  blur: {
+   flex: 1
+  },
+
+  button: {
+    marginTop: 72,
+    marginRight: 32,
+    justifyContent: 'flex-end'
+  },
+
   contentContainer: {
     flex: 1,
-    alignItems: 'center',
+    backgroundColor: "#FFF",
+    marginBottom: -50,
   },
-  button: {
-    marginTop: 48,
-    width: '100%',
-    height: 56,
-    backgroundColor: "#f0718c",
-    borderRadius: 8,
-    alignItems: 'center',
-    justifyContent: 'center'
+
+  textSheet: {
+    color: '#000',
+    fontSize: 18,
+    alignItems: 'flex-start',
+    margin: 24,
   },
-  buttonText: {
+
+  options: {
     fontSize: 24,
-    fontWeight: 'bold',
-    color: "white"
+    color: "#FFF",
+    alignSelf: 'flex-end',
   }
+
 });
