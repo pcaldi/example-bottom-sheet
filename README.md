@@ -7,7 +7,7 @@
 ## 🎬 Demo
 
 <div align="center" >
-   <img height="600" src="./.github/tela.png"/>
+   <img height="600" src="./.github/tela.gif"/>
 </div>
 
 ---
