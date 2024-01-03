@@ -67,7 +67,7 @@ export function Bottom() {
         >
           <View style={styles.contentContainer}>
             <Text style={styles.textSheet}>
-              Opções
+              Exemplo
             </Text>
           </View>
 
